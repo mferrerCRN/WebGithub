@@ -1,3 +1,7 @@
+![azul](https://user-images.githubusercontent.com/82164748/116573676-4e676500-a90d-11eb-95de-ab78ccc07631.jpeg)
+![milogo](https://user-images.githubusercontent.com/82164748/116573698-51625580-a90d-11eb-8a4d-ba6b6b56d926.jpg)
+![poligonos](https://user-images.githubusercontent.com/82164748/116573699-51faec00-a90d-11eb-8e13-5708019c6c80.jpeg)
+![texturalego](https://user-images.githubusercontent.com/82164748/116573702-51faec00-a90d-11eb-8bc1-799d0f0a7726.jpeg)
 # WebGithub
 <!DOCTYPE html>
 <html>
