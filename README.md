@@ -1,4 +1,3 @@
-# MIS ACTIVIDADES
 <!DOCTYPE html>
 <html>
   <head>
