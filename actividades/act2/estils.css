@@ -1,0 +1,19 @@
+body{
+  background-color: lightblue;
+}
+
+#registro{
+  background-color: #FFFFFF;
+  height: 400px;
+  width: 420px;
+}
+
+.rectangulo{
+  width: 300px;
+  margin: 15px;
+  background-color: cyan;
+  color: black;
+}
+h1{
+	text-align: center;
+}
