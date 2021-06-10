@@ -1,0 +1,484 @@
+@media only screen and (min-width: 1068px) {
+  body {
+  background-color: white;
+  font-family: cursive;
+  align-items: center;
+  }
+}
+
+
+header {
+	width: 100%;
+  overflow: hidden;
+  background-image: url(Logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  height: 200px;
+  position: relative;
+
+
+
+}
+
+.contenidor {
+	width:100%;
+  margin:auto;
+  margin-left: 20px;
+
+
+}
+header ul {
+  line-height: 90px;
+  margin-top: 40px;
+
+
+}
+header ul a {
+	color: black;
+	text-decoration:none;
+	padding: 7px;
+	line-height: normal;
+	font-size: 12px;
+  transition: 1s;
+}
+header ul a:hover {
+	background: #F46060;
+	border-radius: 20px;
+
+}
+
+/*menú*/
+
+.menu-main{
+background-color: white;
+
+}
+
+.menu-main a{
+
+    font-family: arial;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: cursive;
+    width: 1000px;
+    transition: 1s;
+    text-align: center;
+    margin-left: 300px;
+
+
+
+}
+
+.menu-main a:hover{
+    background: #F46060;
+    border-radius: 100%;
+}
+
+
+
+
+.respmenu a {
+
+  text-decoration: none;
+  padding: 10px 20px;
+  border-bottom: 2px solid grey;
+  max-width: 90px;
+  background: black;
+  font-variant: small-caps;
+  text-shadow: 1px 1px black;
+
+
+}
+
+.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  top: 0;
+
+}
+
+.respmenu .fa-bars, .respmenu .fa-times {
+  font-size: 50px;
+
+
+
+}
+
+.respmenu input[type="checkbox"] {
+  opacity: 0;
+
+}
+
+.respmenu {
+  color: white;
+  position: relative;
+  background: #000000;
+  width: 100%;
+  height: 100px;
+
+
+
+
+}
+
+.respmenu nav {
+
+display: inline-flex;
+ background-color: transparent;
+
+}
+
+
+
+
+}
+/*imatges*/
+
+}
+.imatges {
+	width: 100%;
+	margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.slides img{
+	width: 100%;
+}
+
+
+
+ .text-arriba{
+  font-size: 30px;
+  background-color: transparent;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  transition: 1s;
+  line-height: normal;
+  background-color: white;
+}
+
+
+
+
+/*footer*/
+
+footer {
+
+width: 100%;
+background-color: grey;
+color: white;
+font-family: sans-serif;
+
+}
+
+
+.contenidor-footer-tot{
+
+width: 100%;
+overflow: hidden;
+}
+
+
+.contenidor-cos{
+
+  max-width: 1068px;
+  display:  grid;
+  padding: 50px;
+  position: relative;
+}
+
+
+
+.columna1{
+    max-width: 500px;
+    margin-right: 60px;
+    position: relative;
+
+
+
+}
+
+.columna1 h1 {
+  font-size: 19px;
+  text-decoration: underline;
+
+}
+
+.rets {
+margin-top: 10px;
+display: flex;
+
+
+
+}
+
+.rets img {
+  width: 30px;
+  height: 30px;
+
+}
+
+.rets p{
+  margin-top: 10px;
+  font-size: 14;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.columna2 {
+  max-width: 500px;
+  position: relative;
+
+
+
+
+}
+
+.columna2 h1 {
+  font-size: 19px;
+  text-decoration: underline;
+
+}
+
+.cua2 {
+  margin-top: 10px;
+  display: flex;
+  position: relative;
+
+
+}
+
+.cua2 img{
+  width: 30px;
+  height: 30px;
+
+}
+
+.cua2 p{
+  margin-top: 10px;
+  padding: 5px;
+  position: relative;
+  font-size: 14px;
+}
+
+/*peu de pàg*/
+
+.contenidor-footer{
+  width: 100%;
+  background-color: #101010;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.footer{
+
+position: relative;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/*qui som contenidor*/
+
+.contenidor{
+width: 30%;
+max-width: 700px;
+height: 500px;
+background-color: black;
+margin: auto;
+font-size: 15px;
+transition: 1s;
+color: white;
+font-family: sans-serif;
+text-align: center;
+margin-bottom: 10px;
+
+
+
+}
+
+.contenidor h1{
+font-size: 20px;
+font-weight: bold;
+font-family: cursive;
+margin-left: 10px;
+}
+
+ .contenidor p{
+margin: 10px;
+text-align: left;
+text-indent: 20px;
+}
+
+.contenidor article{
+  margin: 10px;
+  text-align: left;
+}
+
+
+
+
+/*contenidor de les receptes*/
+
+#titòl{
+
+color: inherit;
+background-color: inherit;
+margin-top: 200px;
+font-size: 100px;
+text-decoration: overline underline #F46060 20px;
+}
+
+
+.contenidor-receptes{
+width: 100%;
+transition: 1s;
+font-family: sans-serif;
+line-height: 40px;
+
+}
+
+.recepta-imatge{
+width: 100%;
+margin: 10px;
+
+
+}
+
+
+.contenidor-receptes h1{
+font-size: 14px;
+text-decoration: overline underline #F46060 2px;
+margin: 100px;
+text-align: center;
+background-color: black;
+color: white;
+margin: auto;
+width: 95%;
+line-height: 40px;
+
+}
+
+
+.img img{
+width: 40%;
+margin-left: 200px;
+margin-top: 20px;
+margin-bottom: 20px;
+border:  50px solid;
+border-image-source: url("img/marc.png");
+border-image-slice: 27;
+transition: 1s;
+
+
+}
+
+
+.recepta-1{
+
+  margin: 200px;
+  width: 900px;
+  background-color: black;
+  position: relative;
+  overflow:  hidden;
+  margin: auto;
+  margin-top: 200px;
+  text-align: justify;
+}
+
+
+
+
+
+.ingredients{
+font-size: 23px;
+overflow: hidden;
+margin-left: 10px;
+color: white;
+float: left;
+margin-right: 90px;
+
+}
+
+.elaboració{
+float: left;
+font-size: 20px;
+margin: 10px;
+color: white;
+text-align: justify;
+margin-right: 50px;
+margin-bottom: 20px;
+}
+
+
+
+/*merxandatge contenidor*/
+
+
+#titòl{
+
+color: inherit;
+background-color: inherit;
+margin-top: 45px;
+font-size: 20px;
+text-decoration: overline underline #F46060 5px;
+text-align: center;
+}
+
+
+
+
+
+.merch h1{
+font-size: 14px;
+text-decoration: overline underline #F46060 2px;
+text-align: center;
+color: white;
+margin: auto;
+width: 95%;
+line-height: 40px;
+}
+
+
+.merch{
+
+  margin: 200px;
+  width: 95%;
+  background-color: black;
+
+
+  margin: auto;
+  margin-top: 70px;
+  text-align: justify;
+  font-family: sans-serif;
+}
+
+
+.merch img{
+width: 40%;
+margin-top: 20px;
+margin-bottom: 20px;
+border:  20px solid;
+border-image-source: url("img/marco.png");
+border-image-slice: 47;
+transition: 1s;
+margin-left: 500px;
+}
