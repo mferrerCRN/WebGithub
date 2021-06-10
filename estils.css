@@ -1,0 +1,140 @@
+body {
+ background-image: url(img/texturalego.jpg);
+ background-repeat: no-repeat;
+ font-family: 'Chakra Petch', sans-serif;
+ justify-content: center;
+ margin-left: 30px;
+ }
+
+p {
+ text-align: center;
+ font-size: 60px;
+ -webkit-text-stroke: 2px white;
+ color: transparent;
+ animation-duration: 2.5s;
+ animation-name: slidein;
+}
+
+@keyframes slidein {
+ from {
+   margin-left: 100%;
+   width: 300%;
+ }
+
+ to {
+   margin-left: 0%;
+   width: 100%;
+ }
+}
+
+div {
+ font-family: 'Chakra Petch', sans-serif;
+ font-size: 35px;
+ font-weight: bold;
+ text-align: center;
+ -webkit-text-stroke: 2px black;
+ color: transparent;
+}
+
+.cuadros {
+ width: 200px;
+ height: 200px;
+ clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+ opacity: 85%;
+ margin: 20px;
+ float: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Verdana,sans-serif;
+}
+a:hover {
+    color: transparent;
+}
+a {
+    transition: color 0.5s linear 0.0s;
+}
+
+#cuadro1 {
+  background-color: #8E44AD;
+}
+
+#cuadro2 {
+  background-color: #2980B9;
+}
+
+#cuadro3 {
+  background-color: #3498DB;
+  opacity: 90%;
+}
+
+#cuadro4 {
+  background-color: #16A085;
+}
+
+#cuadro5 {
+  background-color: #2ECC71;
+}
+
+#cuadro6 {
+  background-color: #F1C40F;
+}
+
+#cuadro7 {
+  background-color: #E67E22;
+}
+
+#cuadro8 {
+  background-color: #E74C3C;
+}
+
+#cuadro9 {
+  background-color: #C0392B;
+}
+
+#cuadro10 {
+  background-color: #9B59B6;
+}
+
+#milogo {
+ width: 200px;
+ height: 200px;
+ border-radius: 200px;
+ position: relative;
+ background-image: url(img/milogo.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ margin: 0 auto;
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+
+#boton {
+ background: none;
+ background-color: black;
+ width: 50px;
+ border-radius: 30px;
+ float: right;
+ position: fixed;
+ right: 10;
+ bottom: 10;
+ font-size: 15px;
+ text-align: center;
+ text-indent: inherit;
+ line-height: 50px;
+}
+
+a:link {
+ text-decoration: transparent;
+}
+
+a:visited {
+ color: black;
+ -webkit-text-stroke: 2px white;
+}
+
+a:active {
+ color: transparent;
+}
